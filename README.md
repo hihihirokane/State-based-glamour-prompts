@@ -1,2 +1,2 @@
-# State-based-Glamour-photography-prompt
-AI text-to-image prompts specialized in glamour and swimwear photography. They work well on Nano Banana 2.
+# State-based-glamour-photography-prompts
+A collection of state-based text-to-image prompts for glamour and swimwear photography on Nano Banana 2. Generations are designed to yield slight variations each time.
