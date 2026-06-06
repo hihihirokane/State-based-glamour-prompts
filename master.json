@@ -1,0 +1,457 @@
+{
+    "__metadata__": {
+	"framework_name": "State-based Glamour prompts (bikini portraits in particular)",
+	"version": "1.0.0",
+	"release_date": "2026-05-28",
+	"repository": "https://github.com/hihihirokane/State-based-glamour-prompts",
+	"license": "MIT",
+	"changelog": "Initial stable release of the state-based Master Prompt. Implemented phenotype libraries and dynamic fabric physics."
+	"description": "State-based declarative prompt architecture for diffusion models. Developed and tested on Nano Banana 2."
+    },
+    "subject_global": {
+        "archetype": "Playmate",
+        "person": "gorgeous, beautiful woman",
+    	"age": "in her early twenties",
+	"eyes": "clear bright catchlights, iris color clearly visible",
+        "body": [
+	    "a slender build", "an hourglass figure",
+	    "tapered waistline", "flawless hourglass skeletal frame",
+	    "narrow midriff countering the anatomical fullness",
+	],
+        "chest": [
+            "Proportional barrel-chested anatomy",
+            "heavy pectoral development", "wide ribcage", "thick torso",
+            "cinematic lighting to emphasize muscle depth",
+            "an unfathomably gigantic, massive natural chest",
+	    "revealing deep cleavage", "34DDDD",
+        ],
+        "garment": "skin-tight minimal-coverage dental floss bikini swimsuit",
+        "garment_detail": {
+            "swimsuit_base": "vivid, iridescent metallic-blue",
+            "swimsuit_trim": "white piping",
+            "bikini_top": [
+		"halterneck tiny trignale bikini top with white straps",
+		"equipped with drawstring channels in underbust",
+		"underboob and sideboob clearly left out of the tiny top",
+	    ],
+            "bikini_top_cling": ["the tiny top firmly clinging to the chest",
+				 "pokies"],
+            "bikini_bottom": [
+                "high-leg tanga string G-string micro bikini bottom",
+                "firmly clinging to the waist and the crotch",
+                "white thin strap", "no tie"
+            ],
+            "bikini_straps": [
+		"high-tension fit", "causing visible skin indentation",
+		"significant flesh displacement along the underbust and the waist",
+		"fabric deeply recessed into the torso",
+		"soft-tissue bulging at the edges",
+		"cinematic contact shadows to emphasize depth"
+	    ],
+	    "bikini_state_based": {
+		"material_physics": [
+		    "High-elasticity textile under intense structural tension",
+		    "neck straps experiencing tight tension due to anatomical fullness",
+		    "fabric surface displaying micro-stretch lines along the stress vectors"
+		],
+		"anatomical_interaction": [
+		    "Stretched textile firmly pressing and contouring the form",
+		    "natural, realistic displacement of elastic tissue beneath the borders",
+		    "healthy, organic compression where the material binds to the silhouette"
+		]
+	    },
+        }
+    },
+    "phenotype_library": {
+	"anglo_saxon_transparent": {
+	    "heritage": "North-Western European / Anglo-Saxon",
+	    "craniofacial_structure": {
+		"bone_structure": [
+		    "Narrow, oval facial symmetry",
+		    "subtle cheekbone projection",
+		    "moderate, elongated jawline"
+		],
+		"features": [
+		    "High, straight, prominently projected nasal bridge",
+		    "moderately thin, finely contoured lips"
+		]
+	    },
+	    "eye_anatomy": {
+		"shape": [
+		    "Standard horizontal almond aperture",
+		    "clear sky-blue, pale green, or light hazel irises"
+		]
+	    },
+	    "material_fidelity": {
+		"skin_tone": [
+		    "Alabaster to pale ivory complexion",
+		    "pronounced cool pink and rosy undertones"
+		],
+		"texture": [
+		    "Highly transparent epidermis",
+		    "visible micro-freckles across the cheeks",
+		    "intense pink subsurface scattering on the ears and fingers"
+		]
+	    },
+	    "hair": [
+		"Strawberry-blonde, flaxen, or light golden-brown",
+		"fine texture, soft natural waves"
+	    ]
+	},
+        "african_american_phenotype": {
+	    "heritage": "African American / West-African descent",
+	    "archetype": "1990s Neo-Soul / Lauryn Hill phenotype",
+	    "skin_tone": "Rich umber, warm golden and terracotta undertones",
+	    "craniofacial_structure": {
+		"bone_structure": ["Softly contoured cheekbones",
+				   "oval facial symmetry", "smooth jawline"],
+		"features": ["Full, well-defined symmetrical lips",
+			     "soft nose bridge with a gentle flare"]
+	    },
+	    "eye_anatomy": {
+		"shape": ["Large, expressive almond eyes",
+			  "dark brown irises",
+			  "thick natural lash line"],
+		"gaze": ["Intelligent", "soulful",
+			 "direct connection with the lens"]
+	    },
+	    "material_fidelity": {
+		"texture": ["Smooth satin skin surface",
+			    "realistic micro-pores",
+			    "natural oil sheen on cheekbones"]
+	    },
+	    "hair": ["Intricate micro-locs or fine box-braids",
+		     "neat partitions", "dark espresso tone",
+		     "matte finish"]
+	},
+        "kpop_visual_center": {
+	    "heritage": "Modern South-Korean Pop-Aesthetic Phenotype",
+	    "bone_structure": [
+		"Ultra-sharp V-line jaw geometry",
+		"tapered narrow chin",
+		"delicate, low-volume cheekbones",
+		"high, straight, narrow nose bridge"],
+	    "eyes": [
+		"Extraordinarily large circular orbits",
+		"wide eye aperture",
+		"crisp, distinct parallel double eyelids",
+		"high sclera exposure"
+	    ]
+	},
+	"kpop_premium": {
+	    "heritage": "Kpop singer phenotype (premium) / South-Korean",
+	    "craniofacial_structure": {
+		"bone_structure": [
+		    "Slender, aristocratically balanced V-line jaw",
+		    "delicate and smooth zygomatic contours",
+		    "sculpted, razor-thin nasal bridge",
+		    "perfectly clean sub-mental definition"
+		]
+	    },
+	    "eye_anatomy": {
+		"shape": [
+		    "Elongated, elegant East Asian eye aperture",
+		    "high internal clarity and crisp iris definition",
+		    "subtle, natural asymmetry between left and right fold",
+		    "deep, conscious, un-blank gaze"
+		]
+	    }
+	},
+	"japanese_idol": {
+	    "heritage": "Modern North-East Asian / Idol Phenotype",
+            "craniofacial_structure": {
+                "jawline": [
+		    "Soft, gently curved jawline",
+		    "small delicate chin",
+		    "youthful facial roundness"],
+                "cheekbones": [
+		    "Softly rounded",
+		    "subtle cheek volume",
+		    "flat facial profile with minimal projection"]
+            },
+            "eye_anatomy": {
+                "shape": [
+		    "Large, wide, round orbital aperture",
+		    "emphasized vertical iris height"],
+                "eyelids": [
+		    "Parallel double-eyelid crease",
+		    "prominent and plump tear bags (aegyo-sal / namida-bukuro)"],
+                "gaze": "Bright, direct, doe-eyed expression"
+            },
+            "material_fidelity": {
+                "texture": "Soft-focus peach-skin finish, subtle dewy glow on the nose tip and cheeks",
+                "adornment": "Soft, wispy see-through bangs framing the forehead"
+            },
+            "hair": "Jet-black, heavy-density, straight, mirror-like gloss"
+	},
+    },
+    "hair_library": {
+	"kpop_sleek": {
+	    "style": [
+		"Ultra-straight, liquid-silk long hair",
+		"zero frizz, perfectly flat alignment",
+		"sharp, immaculate center parting"
+	    ],
+	    "geometry": [
+		"Clings closely to the temples and cheeks",
+		"frames the face in a sharp vertical line",
+		"bluntly cut ends falling over the shoulders"
+	    ],
+	    "material_fidelity": [
+		"High-gloss mirror sheen reflecting the strobes",
+		"deep espresso or midnight-black tone",
+		"distinct individual strand separation"
+	    ]
+	},
+	"hair_controlled_randomness": {
+	    "style": [
+		"Immaculate, ultra-straight long K-pop hair texture",
+		"subjected to a subtle, unpredictable ambient air current"
+	    ],
+	    "flexibility": [
+		"Strands separate and drift organically based on chaotic airflow",
+		"spontaneous, natural kinetic movement around the shoulders",
+		"zero frozen or static styling, fluid atmospheric interaction"
+	    ]
+	},
+	"kpop_bangs": {
+	    "style": [
+		"Long, softly layered straight hair",
+		"delicate, wispy see-through bangs",
+		"forehead skin clearly visible through strands"
+	    ],
+	    "geometry": [
+		"Bangs cut precisely at the eyebrow line",
+		"slender side pieces contouring the cheekbones"
+	    ]
+	}
+    },
+    "cosmetic_library": {
+	"gravure_natural": {
+	    "skin_finish": ["Ultra-thin translucent foundation", "visible satin skin texture"],
+	    "eyes_lips": ["Minimal tightline eyeliner", "sheer glossy light pink lip tint"]
+	},
+	"glamour_heavy": {
+	    "skin_finish": ["Full-coverage matte foundation", "heavy high-specular body oil"],
+	    "contour": ["Deep espresso shadow under cheekbones", "sharp liquid cat-eye liner"]
+	},
+	"makeup_hauté_couture": {
+	    "skin_finish": [
+		"Ultra-luxurious, whisper-thin satin foundation",
+		"highly realistic epidermal micro-topography",
+		"intense subsurface scattering on the ears and philtrum",
+		"dewy, high-specular hydration restricted to the cheek crests"
+	    ],
+	    "features_accent": [
+		"Expertly feathered, individual eyebrow hair rendering",
+		"naked lash line with clear gloss separation",
+		"softly blurred, natural lip border with a raw berry stain finish"
+	    ]
+	},
+	"makeup_cyber_gloss": {
+	    "skin_finish": [
+	        "Hyper-reflective glass-skin finish",
+	        "high-specular liquid gel highlights on cheekbones",
+	        "translucent, wet-look epidermal hydration"
+	    ],
+	    "eyes_and_lips": [
+	        "Clear vinyl lip-gloss overlay with high dimensionality",
+	        "wet-look glossy eyelids reflecting the studio strobes",
+	        "immaculately separated, wet-combed eyelashes"
+	    ]
+	},
+	"makeup_editorial_matte_noir": {
+	    "skin_finish": [
+		"Ultra-matte porcelain powder finish",
+		"zero oily specularity, completely velvet texture",
+		"soft-focus diffusion across the skin gradient"
+	    ],
+	    "contour_and_tones": [
+		"Deep charcoal and ash-brown bone contouring",
+		"muted desaturated plum or dark terracotta matte lips",
+		"smoky, diffused graphite eyeshadow framing the sockets"
+	    ]
+	},
+	"makeup_kpop_stage_glitter": {
+	    "skin_finish": [
+		"Semi-matte high-definition base",
+		"sweat-resistant velvet texture",
+		"subtle brightening on the center T-zone"
+	    ],
+	    "eyes_and_highlights": [
+		"Chunky holographic glitter point particles",
+		"glitter placed precisely on the lower teardrop line",
+		"sharp, tight liquid black eyeliner extending outward",
+		"pointy, individual K-pop cluster lash extensions"
+	    ],
+	    "lips": [
+		"Vibrant gradient lip application",
+		"saturated color concentrated at the inner center",
+		"softly blurred outer lip boundaries"
+	    ]
+	},
+	"makeup_kpop_luxury_ambassador": {
+	    "skin_finish": [
+		"Flawless satin-matte porcelain finish",
+		"seamless, invisible corrective skin prepping"
+	    ],
+	    "eyes_and_contour": [
+		"Muted monochrome ash-rose or beige eyeshadow",
+		"softly defined aegyo-sal using natural shadows",
+		"perfectly straight, architectural eyebrow rendering"
+	    ],
+	    "lips": [
+		"Overlined lip borders with a matte nude-rose lip pencil",
+		"blurred, velvety lip surface texture",
+		"sophisticated tone-on-tone color harmony"
+	    ]
+	},
+	"makeup_controlled_randomness": {
+	    "skin_finish": [
+		"Translucent glass-skin base with high-specularity properties",
+		"micro-hydration layers that react dynamically to the studio axes"
+	    ],
+	    "flexibility": [
+		"Glints of light and facial highlights shift spontaneously with the angle",
+		"organic variations in pigment blending under the strobe exposure"
+	    ]
+	}
+    },
+    "expression_library": {
+	"expression_conscious_gaze": {
+	    "ocular_tension": [
+	        "Subtle, micro-tension in the orbicularis oculi muscles",
+	        "slight, barely perceptible narrowing of the lower eyelids",
+	        "intense internal focus and intelligent clarity in the pupils"
+	    ],
+	    "mid_face_dynamics": [
+	        "Relaxed but fully conscious facial muscle tone",
+	        "slight asymmetrical elevation of one eyebrow crest",
+	        "zero vacant stare, active emotional presence"
+	    ]
+	},
+	"expression_micro_smile": {
+	    "oral_tension": [
+		"Faint, microscopic lift at the very corners of the lips",
+		"subtle tension in the zygomaticus major muscles",
+		"lips remain closed, maintaining a soft natural seal"
+	    ],
+	    "eye_interaction": [
+		"Warm, responsive crinkling at the outer eye corners",
+		"soft, welcoming doe-eyed expression",
+		"gaze communicates a direct, intimate connection with the viewer"
+	    ]
+	},
+    },
+    "posing_library": {
+	"posing_dynamic_contrapposto": {
+	    "composition": [
+		"Dynamic standing contrapposto posture with asymmetric weight distribution",
+		"primary body weight heavily anchored to one load-bearing leg",
+		"opposite hip dropped slightly, creating an organic pelvic tilt",
+		"shoulder axis angled counter to the tilt of the hips",
+		"subtle, natural three-dimensional S-curve running through the spine"
+	    ],
+	    "camera_relation": [
+		"Torso rotated roughly 30 to 45 degrees away from the lens axis",
+		"head turned back smoothly to maintain direct eye-contact",
+		"dynamic foreshortening that establishes depth across the shoulders"
+	    ]
+	},
+	"posing_editorial_seated": {
+	    "composition": [
+		"Casual, relaxed seated posture on the floor",
+		"effortless, comfortable disposition",
+		"natural, un-choreographed limb placement"
+	    ],
+	    "camera_relation": [
+		"Gazing naturally toward the large format lens",
+		"relaxed shoulder alignment"
+	    ]
+	},
+    },
+    "environmental_interaction": {
+	"environment_utility_luxe": {
+	    "spatial_physics": [
+	        "Subject is partially supported by an ambient horizontal architectural element",
+	        "natural structural compression where the body meets the surface",
+	        "organic weight adaptation to the local environment geometry"
+	    ],
+	    "atmospheric_state": [
+	        "Warm, multi-directional high-intensity studio strobe arrays",
+	        "photons catching microscopic skin hydration layers dynamically",
+	        "subtle, chaotic airborne micro-currents affecting loose fabric edges"
+	    ]
+	}
+    },
+    "global_environment": {
+	"vibe": "Vintage Playboy glamour, high-end editorial",
+	"style": "Arny Freytag",
+	"lighting": {
+            "setup": "Multi-point studio array",
+            "characteristics": ["Soft-glow", "high-contrast rim-lighting",
+				"parabolic reflectors", "5500k neutral white balance"],
+            "hardware": "High-output industrial studio strobes"
+	},
+	"material_fidelity": {
+            "organic_surfaces": "Luminous skin, micro-detailed pores, realistic sweat-sheen",
+            "structural_integrity": "High-definition, carved musculature, realistic anatomy",
+            "fabrics": "Bespoke silk, heavy velvet textures"
+	},
+	"technical_metadata": {
+            "format": "20x24 Ultra Large Format (ULF)",
+            "lens": "1200mm bespoke portrait glass",
+            "optics": {
+		"aperture": "f/22",
+		"focus_profile": "Hyper-thin focal plane, sharp iris to soft-ear transition",
+		"shutter": "1/125s strobe sync"
+            },
+            "image_quality": {
+		"grain": "Zero-perceivable (contact-print quality)",
+		"noise": "Zero digital artifacts",
+		"tonality": "Infinite gradations, no highlight clipping"
+            }
+	},
+	"setting": "Luxury mansion interior, opulence, 1990s aesthetic",
+	"rendering_constraints": {
+            "fidelity": "Photorealistic, raw-photo, 8k scan-look",
+            "negatives": "Anti-CGI, no plastic skin, no 3D-render smoothness"
+	}
+    },
+    "DEPRECATED_ARCHIVE": {
+	"_comment": "Everything inside this block is ignored by the active compiler",
+	"phenotypes": {
+	    "NOTE": "empty. See deprecated.json."
+	},
+	"assemblies": {
+	    "NOTE": "empty. See deprecated.json."
+	}
+    },
+    "_comment": "active phenotypes: (nilotic_obsidian), (slavic_sculptural), anglo_saxon_transparent, (latin_mediterranean_phenotype), (proto_east_asian), african_american_phenotype, kpop_visual_center, kpop_premium, japanese_idol, (monolid_north_east_asian_phenotype)",
+    "_comment": "active hairstyles: kpop_sleek, kpop_bang, hair_controlled_randomness",
+    "_comment": "active makeups: gravure_natural, glamour_heavy, makeup_hauté_couture, makeup_cyber_gloss, makeup_editorial_matte_noir, (makeup_retro_city_pop), makeup_kpop_stage_glitter, (makeup_kpop_kwajup_juicy), makeup_kpop_luxury_ambassador",
+    "_comment": "active expressions: expression_conscious_gaze, expression_micro_smile, (expression_visual_focus), expression_editorial_allure",
+    "_comment:" "active environmental_interaction: environment_utility_luxe",
+    "_comment": "active posings: (posing_all_fours), (all_fours_old), (*posing_all_fours_structured), (posing_editorial_standing), posing_editorial_seated, posing_dynamic_contrapposto",
+    "active_assembly": {
+	"target_subject": [
+	    "subject_global",
+	    "Combine phenotype_library.kpop_visual_center",
+	    "with hair_library.kpop_bangs",
+	    "and hair_library.hair_controlled_randomness",
+	    "and cosmetic_library.makeup_kpop_stage_glitter",
+	    "and cosmetic_library.makeup_controlled_randomness",
+	    "and expression_library.expression_micro_smile",
+	    "and environmental_interaction.environment_utility_luxe",
+	    "and posing_library.posing_dynamic_contrapposto"
+	],
+	"rendering_constraint": [
+	    "Strict color isolation",
+	    "zero violet or blue color bleed onto walls",
+	    "strictly eliminate vacant or dead-eyed expressions",
+	    "force micro-tension in facial muscles for psychological depth",
+	    "enforce macro-structural rules strictly",
+	    "allow high micro-variation and chaotic fluid detail in every generation loop"
+	]
+    }
+}
